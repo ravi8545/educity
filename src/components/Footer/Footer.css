@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 60px;
+    border-top: 1px solid hsl(0, 0%, 80%);
+
+    font-size: 14px;
+    color: #333;
+ 
+}
+
+/* Left text */
+.footer p {
+    margin: 0;
+}
+
+/* Right links */
+.footer ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.footer ul li:hover {
+    color: #2563eb; /* blue */
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
