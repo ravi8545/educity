@@ -21,7 +21,8 @@ const App = () => {
       <div className="container">
         <Title subTitle='OUR PROGRAM' title='What We Offer' />
         <Programs />
-
+        
+        {/* <Title subTitle='ABOUT UNIVERSITY' title='Nurturing Tomorrow's Leaders Today /> */}
         <About setPlayState={setPlayState} />
 
         <Title subTitle='Gallery' title='Campus Photos' />
